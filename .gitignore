@@ -1,0 +1,10 @@
+# Ignore all data files (.csv, .xlsx) in the data directory
+data/**/*.csv
+data/**/*.xlsx
+
+# EXCEPTION: Allow pushing mock_data.csv to GitHub for the team
+!data/raw/mock_data.csv
+
+# Ignore system or Python cache files
+__pycache__/
+.ipynb_checkpoints/ 
